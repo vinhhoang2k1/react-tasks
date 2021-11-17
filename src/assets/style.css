@@ -1,0 +1,69 @@
+.container {
+  margin: 1em;
+  display: flex;
+}
+.row {
+  width: 40rem;
+  margin: auto;
+}
+.cart .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 19%);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-right {
+  padding: 20px;
+}
+
+.button.primary {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+  float: right;
+}
+.task-meta {
+  color: grey;
+  /* font-size: small; */
+  margin-top: -10px;
+  margin-bottom: 0.5em;
+}
+
+.task-meta img {
+  margin-right: 5px;
+}
+h4 {
+  margin: 15px 0;
+}
+button {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+form {
+  text-align: left;
+  margin: 10px 0px 10px 0px;
+}
+
+label {
+  font-weight: 700;
+  color: grey;
+}
+input {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin: 10px 0px 10px 0px;
+}
